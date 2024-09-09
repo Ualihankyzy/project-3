@@ -1,0 +1,43 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <style>
+    a{ 
+        color: rgb(115, 0, 255);
+        text-decoration: none;
+    }
+    .f3{
+        text-align: center;
+        color: blueviolet;
+        background-color: rgb(189, 145, 230);
+    }
+    body{
+        background-color: hwb(269 73% 11%);
+    }
+ </style>
+ <body>
+  <h1 class="f3">Contact</h1>
+        <form action="/submit" method="post">
+          
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    
+    <h1><a href="index.html">exit</a></h1>
+ </body>
+ </html>
